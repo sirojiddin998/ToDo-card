@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add delete|| todo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark">
+  
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-12 col-md-8 col-lg-6 offset-md-2 offset-lg-3 p-3">
+          <div class="card bg-muted">
+            <div class="card-header text-center">
+              <strong class="fs-3">Add user</strong>
+            </div>
+            <div class="card-body">
+              <div class="pt-2">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  class="form-control"
+                  id="name"
+                  type="text"
+                  placeholder="ismingzini kiriting...."
+                />
+              </div>
+              <div class="pt-2">
+                <label for="Age" class="form-label">Age</label>
+                <input
+                  class="form-control"
+                  id="age"
+                  type="number"
+                  placeholder="yoshingizni   kiriting...."
+                />
+              </div>
+              <div class="pt-2">
+                <label for="locate" class="form-label">Locate</label>
+                <input
+                  class="form-control"
+                  id="locate"
+                  type="text"
+                  placeholder="Manzilingizni kiriting.... "
+                />
+              </div>
+            </div>
+            <div class="card-footer text-end p-2">
+              <button class="btn btn-primary text-white id='btn'">
+                <i class="fa fa-plus-circle" aria-hidden="true"></i>Add
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row py-5" id="myRow">
+      
+      </div>
+    </div>
+    <script src="./main.js "></script>
+  </body>
+</html>
